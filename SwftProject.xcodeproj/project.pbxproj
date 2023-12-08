@@ -17,6 +17,14 @@
 		CFA0251A2B22BEF500B172EE /* JNavContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA025192B22BEF500B172EE /* JNavContoller.swift */; };
 		CFA0251C2B22BF0B00B172EE /* JBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0251B2B22BF0B00B172EE /* JBaseViewController.swift */; };
 		CFA0251E2B22C0D000B172EE /* JMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA0251D2B22C0D000B172EE /* JMainViewController.swift */; };
+		CFA025292B22E69100B172EE /* goodsJJYX.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025212B22E69100B172EE /* goodsJJYX.plist */; };
+		CFA0252A2B22E69100B172EE /* UnicomBanner.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025222B22E69100B172EE /* UnicomBanner.plist */; };
+		CFA0252B2B22E69100B172EE /* homeBanner.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025232B22E69100B172EE /* homeBanner.plist */; };
+		CFA0252C2B22E69100B172EE /* menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025242B22E69100B172EE /* menu.plist */; };
+		CFA0252D2B22E69100B172EE /* UnicomAreaDiscountZone.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025252B22E69100B172EE /* UnicomAreaDiscountZone.plist */; };
+		CFA0252E2B22E69100B172EE /* goodsPJZX.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025262B22E69100B172EE /* goodsPJZX.plist */; };
+		CFA0252F2B22E69100B172EE /* UnicomAreaRecommGoods.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025272B22E69100B172EE /* UnicomAreaRecommGoods.plist */; };
+		CFA025302B22E69100B172EE /* goodsMZXH.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA025282B22E69100B172EE /* goodsMZXH.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,14 @@
 		CFA025192B22BEF500B172EE /* JNavContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JNavContoller.swift; sourceTree = "<group>"; };
 		CFA0251B2B22BF0B00B172EE /* JBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBaseViewController.swift; sourceTree = "<group>"; };
 		CFA0251D2B22C0D000B172EE /* JMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JMainViewController.swift; sourceTree = "<group>"; };
+		CFA025212B22E69100B172EE /* goodsJJYX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goodsJJYX.plist; sourceTree = "<group>"; };
+		CFA025222B22E69100B172EE /* UnicomBanner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnicomBanner.plist; sourceTree = "<group>"; };
+		CFA025232B22E69100B172EE /* homeBanner.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = homeBanner.plist; sourceTree = "<group>"; };
+		CFA025242B22E69100B172EE /* menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menu.plist; sourceTree = "<group>"; };
+		CFA025252B22E69100B172EE /* UnicomAreaDiscountZone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnicomAreaDiscountZone.plist; sourceTree = "<group>"; };
+		CFA025262B22E69100B172EE /* goodsPJZX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goodsPJZX.plist; sourceTree = "<group>"; };
+		CFA025272B22E69100B172EE /* UnicomAreaRecommGoods.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UnicomAreaRecommGoods.plist; sourceTree = "<group>"; };
+		CFA025282B22E69100B172EE /* goodsMZXH.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = goodsMZXH.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +102,10 @@
 		CFA024FC2B22B18700B172EE /* SwftProject */ = {
 			isa = PBXGroup;
 			children = (
+				CFA0251F2B22E66F00B172EE /* Resource */,
 				CFA025112B22B97900B172EE /* Classes */,
 				CFA024FD2B22B18700B172EE /* AppDelegate.swift */,
 				CFA025012B22B18700B172EE /* ViewController.swift */,
-				CFA025032B22B18700B172EE /* Main.storyboard */,
-				CFA025062B22B18700B172EE /* Assets.xcassets */,
-				CFA025082B22B18700B172EE /* LaunchScreen.storyboard */,
-				CFA0250B2B22B18700B172EE /* Info.plist */,
 			);
 			path = SwftProject;
 			sourceTree = "<group>";
@@ -146,6 +159,33 @@
 				CFA0251D2B22C0D000B172EE /* JMainViewController.swift */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		CFA0251F2B22E66F00B172EE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CFA025032B22B18700B172EE /* Main.storyboard */,
+				CFA025082B22B18700B172EE /* LaunchScreen.storyboard */,
+				CFA0250B2B22B18700B172EE /* Info.plist */,
+				CFA025202B22E69100B172EE /* BimineData */,
+				CFA025062B22B18700B172EE /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFA025202B22E69100B172EE /* BimineData */ = {
+			isa = PBXGroup;
+			children = (
+				CFA025212B22E69100B172EE /* goodsJJYX.plist */,
+				CFA025222B22E69100B172EE /* UnicomBanner.plist */,
+				CFA025232B22E69100B172EE /* homeBanner.plist */,
+				CFA025242B22E69100B172EE /* menu.plist */,
+				CFA025252B22E69100B172EE /* UnicomAreaDiscountZone.plist */,
+				CFA025262B22E69100B172EE /* goodsPJZX.plist */,
+				CFA025272B22E69100B172EE /* UnicomAreaRecommGoods.plist */,
+				CFA025282B22E69100B172EE /* goodsMZXH.plist */,
+			);
+			path = BimineData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,9 +248,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA0252F2B22E69100B172EE /* UnicomAreaRecommGoods.plist in Resources */,
+				CFA0252A2B22E69100B172EE /* UnicomBanner.plist in Resources */,
+				CFA0252B2B22E69100B172EE /* homeBanner.plist in Resources */,
 				CFA0250A2B22B18700B172EE /* LaunchScreen.storyboard in Resources */,
 				CFA025072B22B18700B172EE /* Assets.xcassets in Resources */,
+				CFA0252E2B22E69100B172EE /* goodsPJZX.plist in Resources */,
+				CFA025292B22E69100B172EE /* goodsJJYX.plist in Resources */,
+				CFA0252C2B22E69100B172EE /* menu.plist in Resources */,
+				CFA025302B22E69100B172EE /* goodsMZXH.plist in Resources */,
 				CFA025052B22B18700B172EE /* Main.storyboard in Resources */,
+				CFA0252D2B22E69100B172EE /* UnicomAreaDiscountZone.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
